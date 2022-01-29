@@ -1,19 +1,125 @@
 /* <!-- ❗ ABRE RESET --> */
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
 /* <!-- FECHA RESET --> */
 
 /* <!-- ❗ ABRE HEADER --> */
-
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.header img {
+  width: 480px;
+  height: 480px;
+}
+.header h1 {
+  text-transform: uppercase;
+  font-size: 48px;
+  color: yellow;
+  text-shadow: 0 0 20px yellow, 0 0 20px yellow;
+}
+.header h2 {
+  font-size: 16px;
+  color: whitesmoke;
+}
 /* <!-- FECHA HEADER --> */
 
 /* <!-- ❗ ABRE VIDEO --> */
-
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.video h3 {
+  color: whitesmoke;
+}
+.video h3 span {
+  color: yellow;
+}
 /* <!-- FECHA VIDEO --> */
 
-/* <!-- ❗ ABRE NFT --> */
-
-/* <!-- FECHA NFT --> */
+/* <!-- ❗ ABRE NFT-INFOS --> */
+.nft-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nft-infos a {
+  padding: 15px 30px;
+  border-radius: 40px;
+  background-color: red;
+  box-shadow: 0 0 20px red, 0 0 20px red;
+  margin: 100px 0px;
+}
+.nft-infos .button span {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 700;
+  color: whitesmoke;
+}
+.infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.infos .nft img {
+  height: 500px;
+}
+.infos .texto-nft {
+  font-size: 20px;
+  margin: 0px 100px;
+  width: 500px;
+}
+.infos .texto-nft p {
+  color: whitesmoke;
+}
+.infos .texto-nft span {
+  color: yellow;
+}
+.close {
+  display: none;
+}
+/* <!-- FECHA NFT-INFOS --> */
 
 /* <!-- ❗ ABRE FOOTER --> */
-
+.footer-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-infos .infos img {
+  width: 240px;
+  height: 240px;
+}
+.infos .texto-footer p {
+  color: whitesmoke;
+}
+.footer-infos .footer p {
+  margin-bottom: 50px;
+  color: whitesmoke;
+}
 /* <!-- FECHA FOOTER --> */
