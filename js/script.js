@@ -1,6 +1,5 @@
 // <!-- ❗ ABRE VAR-AUX -->
-let duration = 30 * 1;
-let display = document.querySelector("#timer");
+let duration = 5 * 1;
 
 let displayNFT = document.querySelector(".close");
 // <!-- FECHA VAR-AUX -->
@@ -9,11 +8,11 @@ let displayNFT = document.querySelector(".close");
 let iframe = document.querySelector("iframe");
 let player = new Vimeo.Player(iframe);
 
-player.on("play", startTimer(duration, display));
+player.on("play", startTimer(duration));
 // <!-- FECHA CLICKVIDEO -->
 
 // <!-- ❗ ABRE TIMER -->
-function startTimer(duration, display) {
+function startTimer(duration) {
   let timer = duration,
     minutes,
     seconds;
@@ -24,8 +23,6 @@ function startTimer(duration, display) {
 
     minutes = minutes < 10 ? "0" + minutes : minutes;
     seconds = seconds < 10 ? "0" + seconds : seconds;
-
-    display.textContent = `${minutes} : ${seconds}`;
 
     if (--timer < 0) {
       timer = duration;
