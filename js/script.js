@@ -1,5 +1,5 @@
 // <!-- ❗ ABRE VAR-AUX -->
-let duration = 5 * 1;
+let duration = 60 * 18;
 
 let displayNFT = document.querySelector(".close");
 // <!-- FECHA VAR-AUX -->
